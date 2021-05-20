@@ -1,0 +1,50 @@
+
+body {
+    font-family: sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: sans-serif;
+    color: #5b05a1;
+  }
+
+
+  button {
+    font-family: sans-serif;
+    width: 70px;
+    height: 30px;
+    background:#5b05a1;
+    color:rgb(253, 170, 242);
+    align-self: center;
+  }
+
+  #div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 400px;
+    width:5px;
+    border: 2px solid;
+    text-align: left;
+    padding: 8px;
+    background: rgb(253, 170, 242);
+
+}
+
+label {
+  display: inline-block;
+}
+
+html {
+    height: 100%;
+    font-family: 'sans-serif';
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #333333;
+}
